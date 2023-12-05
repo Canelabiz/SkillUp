@@ -5,6 +5,7 @@ def unique_in_order(iterable):
     liz = []
     for c in list(iterable):
         liz.append(c)
+    return liz
 
 
 print(unique_in_order("AAAABBBCCDAABBB"), ["A", "B", "C", "D", "A", "B"])

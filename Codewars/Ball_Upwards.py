@@ -9,6 +9,8 @@ def max_ball(v0):
     pass
 
 
+print(max_ball(15), 4)
+print(max_ball(25), 7)
 print(max_ball(37), 10)
 print(max_ball(45), 13)
 print(max_ball(99), 28)
